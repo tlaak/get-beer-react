@@ -7,5 +7,5 @@ to keep my knowledge of these frameworks and libraries up-to-date.
 
 I'd also like to provide an easy template for junior developers to get started.
 
-- [Get Beer - React edition](https://github.com/tlaak/get-beer-react)
+- [Get Beer - Angular edition](https://github.com/tlaak/get-beer-angular)
 - [Get Beer - Vue edition](https://github.com/tlaak/get-beer-vue)
