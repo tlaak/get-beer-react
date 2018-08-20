@@ -11,9 +11,11 @@ class GetBeer extends Component {
         >
           Show me the beers!
         </button>
-        <div className="get-beer__spinner">
-          <p>Fetching beer... be patient!</p>
-        </div>
+        {this.props.isLoading && (
+          <div className="get-beer__spinner">
+            <p>Fetching beer... be patient!</p>
+          </div>
+        )}
         <div className="get-beer__beers">
           <ol className="get-beer__beers-list">
             {this.props.beers.map(beer => {
