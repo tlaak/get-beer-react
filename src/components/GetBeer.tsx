@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import './getBeer.css'
+import './GetBeer.css'
 
 interface IProps {
   getBeer: () => void
