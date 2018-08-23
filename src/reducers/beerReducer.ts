@@ -12,8 +12,6 @@ const beerReducer = (
 ) => {
   switch (action.type) {
     case GET_BEER:
-      // tslint:disable no-console
-      console.log('GET_BEER')
       return { ...state, isLoading: true }
     case GOT_BEER:
       return { ...state, isLoading: false, beers: action.payload }

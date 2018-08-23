@@ -12,8 +12,6 @@ const mapStateToProps = (state: BeerState) => {
 const mapDispatchToProps = (dispatch: Dispatch) => {
   return {
     getBeer: () => {
-      // tslint:disable no-console
-      console.log('dispatch')
       dispatch({ type: GET_BEER })
     },
   }
