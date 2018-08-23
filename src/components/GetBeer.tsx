@@ -21,7 +21,7 @@ const GetBeer = (props: IProps) => (
     <div className="get-beer__beers">
       <ol className="get-beer__beers-list">
         {props.beers.map(beer => (
-          <li className="get-beer__beers-list-item">
+          <li className="get-beer__beers-list-item" key={beer.id}>
             <div className="get-beer__beers-list-item--beer-name">
               {beer.name}
             </div>
