@@ -1,5 +1,7 @@
 import * as React from 'react'
 
+import './getBeer.css'
+
 interface IProps {
   getBeer: () => void
   beers: any[]
