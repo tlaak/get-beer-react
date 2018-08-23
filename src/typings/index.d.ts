@@ -44,4 +44,5 @@ interface Beer {
 interface BeerState {
   isLoading: boolean
   beers: Beer[]
+  failed: boolean
 }
