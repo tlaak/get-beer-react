@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './App.css'
 
-import GetBeerContainer from 'src/containers/GetBeerContainer'
+import GetBeerContainer from 'containers/GetBeerContainer'
 
 const App = () => (
   <main className="app">

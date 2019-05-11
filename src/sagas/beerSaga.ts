@@ -1,7 +1,7 @@
 import { call, put, takeEvery } from 'redux-saga/effects'
 import { SagaIterator } from 'redux-saga'
-import { getBeer } from 'src/services/beerService'
-import { GET_BEER, GET_BEER_FAILED, GOT_BEER } from 'src/reducers/beerReducer'
+import { getBeer } from 'services/beerService'
+import { GET_BEER, GET_BEER_FAILED, GOT_BEER } from 'reducers/beerReducer'
 
 function* getBeerGenerator(): SagaIterator {
   try {
