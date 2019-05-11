@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { Dispatch } from 'redux'
-import GetBeer from 'src/components/GetBeer'
-import { GET_BEER } from 'src/reducers/beerReducer'
+import GetBeer from 'components/GetBeer'
+import { GET_BEER } from 'reducers/beerReducer'
 
 const mapStateToProps = (state: BeerState) => {
   return {
