@@ -8,9 +8,9 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "react-scripts": "3.0.1",
-    "redux": "^4.0.1",
+    "redux": "^4.0.4",
     "redux-saga": "^1.0.5",
-    "snyk": "^1.192.3"
+    "snyk": "^1.193.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,14 +21,14 @@
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.12",
+    "@types/node": "^12.6.2",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
     "@types/react-redux": "^7.1.1",
     "@types/redux": "^3.6.0",
     "tslint": "^5.18.0",
     "tslint-react": "^4.0.0",
-    "typescript": "^3.5.2"
+    "typescript": "~3.4.5"
   },
   "snyk": true,
   "browserslist": {
