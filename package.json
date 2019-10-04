@@ -10,13 +10,15 @@
     "react-scripts": "3.0.1",
     "redux": "^4.0.4",
     "redux-saga": "^1.0.5",
-    "snyk": "^1.193.1"
+    "snyk": "^1.230.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
