@@ -8,14 +8,13 @@ import beerSaga from './sagas/beerSaga'
 import App from './App'
 import './index.css'
 import registerServiceWorker from './registerServiceWorker'
+import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly'
 
 const sagaMiddleware = createSagaMiddleware()
 
 const store = createStore(
   beerReducer,
-  (window as any).__REDUX_DEVTOOLS_EXTENSION__ &&
-    (window as any).__REDUX_DEVTOOLS_EXTENSION__(),
-  applyMiddleware(sagaMiddleware)
+  composeWithDevTools(applyMiddleware(sagaMiddleware))
 )
 
 sagaMiddleware.run(beerSaga)
