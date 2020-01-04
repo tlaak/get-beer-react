@@ -42,6 +42,7 @@
     ]
   },
   "resolutions": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "handlebars": "^4.5.3"
   }
 }
