@@ -1,6 +1,10 @@
 # Get Beer - React edition
 
-Work in progress...
+## Disclaimer
+
+I can't be bothered to keep the dependencies up-to-date as this whole app is just as simple showcase and it's using a little bit old fashioned redux and saga based state management and data flow. Use at your own risk!
+
+## Instructions
 
 This is a simple demo application to showcase how to use Redux state and Sagas in React with TypeScript.
 
